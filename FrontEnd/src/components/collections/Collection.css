@@ -1,0 +1,65 @@
+.collection{
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(232, 215, 232, 0), rgb(134, 43, 133));
+    display: flex;
+    position: relative;
+    animation: mymove 3s;
+    animation-fill-mode: forwards backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes mymove{
+    from {margin-right: 100%;}
+  to {margin-left: 0%;}
+}
+.coll-home{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 100px;
+    line-height: 1.1;
+
+}
+.coll-home h2{
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+}
+.coll-home p{
+    color: #171717;;
+    font-size: 60px;
+    font-weight: 600;
+}
+.coll-icon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.coll-icon img{
+    width: 50px;
+}
+.coll-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 20px;
+    background: red;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.coll-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.coll-right img{
+    height: 100%;
+}

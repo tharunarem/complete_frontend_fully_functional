@@ -1,0 +1,59 @@
+.emailRegister{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px,0px;
+    padding: 0px,140px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    background:-webkit-linear-gradient(270deg ,#c057c7 0%, #e1ffea22 );
+    gap: 30px;
+}
+.margin{
+    margin-top: 30px;
+}
+.emailRegister h1{
+    color:black;
+    font-size: 45px;
+    font-weight: 600;
+}
+.emailRegister p{
+    color: black;
+    font-size: 20px;
+}
+.input-email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #121212;
+    
+
+}
+.input-email:hover{
+    box-shadow: 1px 2px 100px black;
+}
+.input-email input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #060505;
+    font-family:Poppins;
+    font-size: 16px;
+    
+}
+.input-email button{
+    width: 210px;
+    height: 70px;
+    border-radius: 60px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

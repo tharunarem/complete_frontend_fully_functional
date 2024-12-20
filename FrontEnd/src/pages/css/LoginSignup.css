@@ -1,0 +1,68 @@
+.loginSignup{
+    width: 100%;
+    height: 110vh;
+    background: -webkit-linear-gradient(180deg ,#38344cb0 20%, #69926922 60%);
+    padding-top: 40px;
+    background-color: black;
+    color: aliceblue;
+    
+
+}
+.inputs-feilds
+{
+    width: 440px;
+    height: 500px;
+    background: rgb(9, 9, 9);
+    margin: auto;
+    padding: 40px 30px;
+    border-radius: 45px;
+    gap: 20px;
+
+}
+.inputs-feilds:hover{
+    box-shadow: 1px 2px 100px black;
+    color: rgb(37, 36, 36);
+    background: -webkit-linear-gradient(180deg ,#4f494f 0%, #e1ffea22 60%);
+}
+.style{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    
+}
+.inputs-feilds h1{
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.inputs-feilds button{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 1px solid black;
+    background: green;
+    border-radius: 12px;
+    
+}
+.inputs-feilds p{
+    margin-top: 10px;
+}
+.login span{
+    color: red;
+}
+.login-btn{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+   
+}
+.login-btn input{
+    margin-top:-5px;
+}
+
